@@ -171,18 +171,27 @@
     <h1 class="center-text">My name is Morgan Scott</h1>
     <p class="center-text">I am a student studying Mechanical Engineering Technology (MET) at Oklahoma State University.</p>
 </div>
+<style>
+    .center-iframe {
+    display: block;
+    margin: 0 auto;
+}
+</style>
 <div>
-    <!-- form.html -->
-    <form action="/submit" method="post">
-        <label>Name: <input type="text" name="name" required></label><br>
-        <label>Email: <input type="email" name="email" required></label><br>
-        <label>Phone: <input type="phone" name="phone" required></label><br>
-        <label>User: <input type="user" name="username" required></label><br>
-        <label>psswrd: <input type="psswrd" name="password" required></label><br>
-        <button type="submit">Submit</button>
-    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZGSU0_Xp-ztajZwhE4svazsYo7JIuR_fPXVMgnDKxW8J8ew/viewform?embedded=true" width="640" height="867" frameborder="0" marginheight="0" marginwidth="0" class="center-iframe">Loading…</iframe>
 </div>
+<!-- Hidden button -->
+<!--button id="hiddenBtn">Click Me</button>
+
+<Show button trigger >
+<button onclick="showButton()">Show Hidden Button</button>
+
+<script>
+    function showButton() {
+        document.getElementById('hiddenBtn').style.display = 'block';
+    }
+</script-->
+
 </body>
 </html>
 <!--re push index-->
-
